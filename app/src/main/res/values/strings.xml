@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Croat Pool Widget</string>
+    <string name="ivUpdate">Update</string>
+    <string name="tvHashrateLabel">HASHRATE</string>
+    <string name="tvDifficultyLabel">DIFFICULTY</string>
+    <string name="tvLastshareLabel">LAST SHARE</string>
+    <string name="tvTotalsharesLabel">TOTAL SHARES</string>
+    <string name="tvPendingLabel">PENDING BALANCE</string>
+    <string name="tvPayedLabel">PAYED</string>
+    <string name="lbConfigWallet">WALLET</string>
+    <string name="etConfigWallet">Enter your Wallet or Worker.</string>
+    <string name="lbConfigPool">POOL CONFIGURATION</string>
+    <string name="swConfigUpdatetime">Automatic Updates</string>
+    <string name="lbConfigVisuals">THEME CONFIGURATION</string>
+    <string name="swConfigTheme">Dark Theme</string>
+    <string name="swConfigBackground">Background</string>
+    <string name="lbConfigNotifications">NOTIFICATIONS PREFERENCES</string>
+    <string name="swConfigPush">Push Notifications</string>
+    <string name="swConfigEmail">Email Notifications</string>
+    <string name="etConfigEmailAddress">Enter your Email Address.</string>
+    <string name="btConfigSave">SAVE</string>
+    <string name="add_widget">Add Widget</string>
+    <string name="ivPreferences">Preferences</string>
+    <string name="tvConfigUpdateTime">Interval Between Updates</string>
+    <string name="tvConfigOpacity">Opacity (50%)</string>
+
+    <string name="time_01m">1 Minute</string>
+    <string name="time_02m">2 Minutes</string>
+    <string name="time_05m">5 Minutes</string>
+    <string name="time_10m">10 Minutes</string>
+    <string name="time_15m">15 Minutes</string>
+    <string name="time_30m">30 Minutes</string>
+    <string name="time_01h">1 Hour</string>
+    <string name="time_02h">2 Hours</string>
+    <string name="time_06h">6 Hours</string>
+    <string name="time_12h">12 Hours</string>
+    <string name="time_01d">1 Day</string>
+
+    <string name="errorWallet">Error in Address Update !</string>
+    <string name="errorPoolApi">Error in API Pool Update !</string>
+    <string name="swConfigWorkerList">Show Workers in a List</string>
+</resources>

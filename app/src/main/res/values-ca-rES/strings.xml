@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Croat Pool Widget</string>
+    <string name="tvHashrateLabel">TASA</string>
+    <string name="tvDifficultyLabel">DIFICULTAT</string>
+    <string name="tvPayedLabel">PAGAT</string>
+    <string name="lbConfigWallet">CARTERA</string>
+    <string name="lbConfigVisuals">CONFIGURACIÓ DEL TEMA</string>
+    <string name="lbConfigPool">CONFIGURACIÓ DE LA PISCINA</string>
+    <string name="lbConfigNotifications">PREFERENCIES DE NOTIFICACIONS</string>
+    <string name="btConfigSave">DESAR</string>
+    <string name="add_widget">Afegir Widget</string>
+    <string name="etConfigEmailAddress">Introdueixi la seva Adreça de Correu.</string>
+    <string name="swConfigEmail">Notificacions per Email</string>
+    <string name="swConfigPush">Notificacions Push</string>
+    <string name="swConfigBackground">Fons</string>
+    <string name="swConfigTheme">Tema Fosc</string>
+    <string name="swConfigUpdatetime">Actualitzacions Automàtiques</string>
+    <string name="etConfigWallet">Introdueixi la seva Cartera o Treballador.</string>
+    <string name="tvPendingLabel">BALANÇ PENDENT</string>
+    <string name="tvTotalsharesLabel">TOTAL ACCIONS ENVIADES</string>
+    <string name="ivUpdate">Actualitzar</string>
+    <string name="ivPreferences">Preferències</string>
+    <string name="tvLastshareLabel">ÚLTIMA ACCIÓ ENVIADA</string>
+    <string name="tvConfigUpdateTime">Interval entre Actualitzacions</string>
+    <string name="tvConfigOpacity">Opacitat</string>
+    <string name="time_15m">15 Minuts</string>
+    <string name="time_01m">1 Minut</string>
+    <string name="time_02m">2 Minuts</string>
+    <string name="time_05m">5 Minuts</string>
+    <string name="time_10m">10 Minuts</string>
+    <string name="time_30m">30 Minuts</string>
+    <string name="time_01h">1 Hora</string>
+    <string name="time_02h">2 Hores</string>
+    <string name="time_06h">6 Hores</string>
+    <string name="time_12h">12 Hores</string>
+    <string name="time_01d">1 Dia</string>
+    <string name="errorWallet">Error al Actualitzar la Cartera !</string>
+    <string name="errorPoolApi">Error al Actualitzar l\'API !</string>
+</resources>

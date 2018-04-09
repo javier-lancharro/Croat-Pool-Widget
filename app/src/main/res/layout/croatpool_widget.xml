@@ -1,0 +1,311 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:padding="@dimen/widget_margin">
+
+    <ImageView
+        android:id="@+id/ivPreferences"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_settings_white_24dp"
+        android:contentDescription="@string/ivPreferences" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivUpdate"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/ivPreferences"
+        android:layout_toStartOf="@+id/ivUpdate"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivPreferences"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/ivPreferences"
+        android:layout_toStartOf="@+id/ivUpdate"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/ivUpdate"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_update_white_24dp"
+        android:contentDescription="@string/ivUpdate"/>
+
+    <ImageView
+        android:id="@+id/ivPool"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvTime"
+        android:contentDescription="@string/ivUpdate"
+        android:src="@drawable/ic_public_white_24dp" />
+
+    <TextView
+        android:id="@+id/tvPool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_alignTop="@+id/ivPool"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvWallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivPool"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/ivHashrate"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ivPool"
+        android:contentDescription="@string/ivUpdate"
+        android:src="@drawable/ic_flash_on_white_24dp" />
+
+    <TextView
+        android:id="@+id/tvHashrate"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_alignTop="@+id/ivHashrate"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHashrateLabel"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivHashrate"
+        android:layout_alignStart="@+id/tvDate"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="@string/tvHashrateLabel"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/ivDifficulty"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ivHashrate"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/ivUpdate"
+        android:src="@drawable/ic_trending_up_white_24dp" />
+
+    <TextView
+        android:id="@+id/tvDifficulty"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvDate"
+        android:layout_alignTop="@+id/ivHashrate"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDifficultyLabel"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivHashrate"
+        android:layout_alignEnd="@+id/tvDate"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="@string/tvDifficultyLabel"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/ivLastshare"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ivHashrate"
+        android:contentDescription="@string/ivUpdate"
+        android:src="@drawable/ic_access_time_white_24dp" />
+
+    <TextView
+        android:id="@+id/tvLastshare"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_alignTop="@+id/ivLastshare"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvLastshareLabel"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivLastshare"
+        android:layout_alignStart="@+id/tvDate"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="@string/tvLastshareLabel"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/ivTotalshares"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/ivHashrate"
+        android:contentDescription="@string/ivUpdate"
+        android:src="@drawable/ic_cloud_upload_white_24dp" />
+
+    <TextView
+        android:id="@+id/tvTotalshares"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvDate"
+        android:layout_alignTop="@+id/ivLastshare"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTotalsharesLabel"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivLastshare"
+        android:layout_alignEnd="@+id/tvDate"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="@string/tvTotalsharesLabel"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/ivPending"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ivLastshare"
+        android:contentDescription="@string/ivUpdate"
+        android:src="@drawable/ic_account_balance_white_24dp" />
+
+    <TextView
+        android:id="@+id/tvPending"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_alignTop="@+id/ivPending"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPendingLabel"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivPending"
+        android:layout_alignStart="@+id/tvDate"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="@string/tvPendingLabel"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/ivPayed"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/ivLastshare"
+        android:contentDescription="@string/ivUpdate"
+        android:src="@drawable/ic_attach_money_white_24dp" />
+
+    <TextView
+        android:id="@+id/tvPayed"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvDate"
+        android:layout_alignTop="@+id/ivPayed"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPayedLabel"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivPayed"
+        android:layout_alignEnd="@+id/tvDate"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="@string/tvPayedLabel"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

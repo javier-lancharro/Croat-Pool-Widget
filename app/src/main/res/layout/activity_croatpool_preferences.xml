@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/lbConfigWallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/lbConfigWallet" />
+
+    <EditText
+        android:id="@+id/etConfigWallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etConfigWallet"
+        android:inputType="textEmailAddress" />
+
+    <Switch
+        android:id="@+id/swWorkerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="@string/swConfigWorkerList" />
+
+    <TextView
+        android:id="@+id/lbConfigPool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/lbConfigPool" />
+
+    <Spinner
+        android:id="@+id/spConfigPool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:id="@+id/swConfigUpdatetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/swConfigUpdatetime" />
+
+    <TextView
+        android:id="@+id/tvConfigUpdateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvConfigUpdateTime" />
+
+    <SeekBar
+        android:id="@+id/sbConfigUpdatetime"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="5"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/lbConfigVisuals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/lbConfigVisuals" />
+
+    <Switch
+        android:id="@+id/swConfigTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/swConfigTheme" />
+
+    <Switch
+        android:id="@+id/swConfigBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/swConfigBackground" />
+
+    <TextView
+        android:id="@+id/tvConfigOpacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvConfigOpacity" />
+
+    <SeekBar
+        android:id="@+id/sbConfigureOpacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/lbConfigNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/lbConfigNotifications" />
+
+    <Switch
+        android:id="@+id/swConfigPush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/swConfigPush" />
+
+    <Switch
+        android:id="@+id/swConfigEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/swConfigEmail" />
+
+    <EditText
+        android:id="@+id/etConfigEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etConfigEmailAddress"
+        android:inputType="textEmailAddress"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/btConfigSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/btConfigSave" />
+
+</LinearLayout>
